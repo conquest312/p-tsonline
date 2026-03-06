@@ -1,4 +1,4 @@
-const API_BASE = "http://127.0.0.1:5055";
+const API_BASE = "http://160.191.88.133:5055";
 
 let audioCtx = null;
 function ensureAudio() {
@@ -288,3 +288,4 @@ async function claimSpinReward(token, prize) {
     result.textContent = "❌ Lỗi: " + (err?.message || err);
   }
 })();
+
